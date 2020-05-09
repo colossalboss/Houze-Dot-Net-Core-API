@@ -1,0 +1,50 @@
+﻿<Properties StartupConfiguration="{8017F76F-ECE6-496E-B7CE-3812417B7E95}|Default">
+  <MonoDevelop.Ide.ItemProperties.HouzeAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HouzeAPI.Entities/Test.cs">
+    <Files>
+      <File FileName="HouzeAPI/Controllers/LikesController.cs" Line="71" Column="13" />
+      <File FileName="HouzeAPI.Services/Interfaces/ILikes.cs" Line="9" Column="16" />
+      <File FileName="HouzeAPI.Services/Repositories/LikeRepository.cs" Line="23" Column="1" />
+      <File FileName="HouzeAPI.Entities/Like.cs" Line="16" Column="41" />
+      <File FileName="HouzeAPI.Services/Repositories/HouseRepository.cs" Line="38" Column="20" />
+      <File FileName="HouzeAPI/Controllers/UsersController.cs" Line="74" Column="73" />
+      <File FileName="HouzeAPI/Startup.cs" Line="53" Column="1" />
+      <File FileName="HouzeAPI/ViewModels/LikeDto.cs" Line="4" Column="28" />
+      <File FileName="HouzeAPI.Services/Interfaces/IManager.cs" Line="16" Column="1" />
+      <File FileName="HouzeAPI.Services/Repositories/ManagerRepository.cs" Line="36" Column="10" />
+      <File FileName="HouzeAPI.Services/Interfaces/IHouse.cs" Line="12" Column="44" />
+      <File FileName="HouzeAPI/ViewModels/UserViewModel.cs" Line="10" Column="9" />
+      <File FileName="HouzeAPI/ViewModels/EditUserViewModel.cs" Line="10" Column="31" />
+      <File FileName="HouzeAPI.Entities/Test.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HouzeAPI" expanded="True">
+            <Node name="HouzeAPI" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Helpers" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+            </Node>
+            <Node name="HouzeAPI.Entities" expanded="True">
+              <Node name="Test.cs" selected="True" />
+            </Node>
+            <Node name="HouzeAPI.Services" expanded="True">
+              <Node name="Interfaces" expanded="True" />
+              <Node name="Repositories" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

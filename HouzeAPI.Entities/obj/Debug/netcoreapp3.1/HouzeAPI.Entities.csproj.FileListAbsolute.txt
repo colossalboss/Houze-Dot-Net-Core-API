@@ -1,0 +1,9 @@
+/Users/ogbaragodwin/Projects/HouzeAPI/HouzeAPI.Entities/obj/Debug/netcoreapp3.1/HouzeAPI.Entities.csprojAssemblyReference.cache
+/Users/ogbaragodwin/Projects/HouzeAPI/HouzeAPI.Entities/obj/Debug/netcoreapp3.1/HouzeAPI.Entities.csproj.CoreCompileInputs.cache
+/Users/ogbaragodwin/Projects/HouzeAPI/HouzeAPI.Entities/obj/Debug/netcoreapp3.1/HouzeAPI.Entities.AssemblyInfoInputs.cache
+/Users/ogbaragodwin/Projects/HouzeAPI/HouzeAPI.Entities/obj/Debug/netcoreapp3.1/HouzeAPI.Entities.AssemblyInfo.cs
+/Users/ogbaragodwin/Projects/HouzeAPI/HouzeAPI.Entities/bin/Debug/netcoreapp3.1/HouzeAPI.Entities.deps.json
+/Users/ogbaragodwin/Projects/HouzeAPI/HouzeAPI.Entities/bin/Debug/netcoreapp3.1/HouzeAPI.Entities.dll
+/Users/ogbaragodwin/Projects/HouzeAPI/HouzeAPI.Entities/bin/Debug/netcoreapp3.1/HouzeAPI.Entities.pdb
+/Users/ogbaragodwin/Projects/HouzeAPI/HouzeAPI.Entities/obj/Debug/netcoreapp3.1/HouzeAPI.Entities.dll
+/Users/ogbaragodwin/Projects/HouzeAPI/HouzeAPI.Entities/obj/Debug/netcoreapp3.1/HouzeAPI.Entities.pdb

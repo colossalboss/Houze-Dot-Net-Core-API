@@ -1,0 +1,35 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouzeAPI", "HouzeAPI\HouzeAPI.csproj", "{8017F76F-ECE6-496E-B7CE-3812417B7E95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouzeAPI.Data", "HouzeAPI.Data\HouzeAPI.Data.csproj", "{3AD4AE7E-AE42-401F-863B-9BA8ED7F03FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouzeAPI.Entities", "HouzeAPI.Entities\HouzeAPI.Entities.csproj", "{D8129DA2-9ACF-45D3-9606-67A5D968147D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouzeAPI.Services", "HouzeAPI.Services\HouzeAPI.Services.csproj", "{C1EB3123-C985-4482-BEA1-67605F3D1338}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8017F76F-ECE6-496E-B7CE-3812417B7E95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8017F76F-ECE6-496E-B7CE-3812417B7E95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8017F76F-ECE6-496E-B7CE-3812417B7E95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8017F76F-ECE6-496E-B7CE-3812417B7E95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AD4AE7E-AE42-401F-863B-9BA8ED7F03FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD4AE7E-AE42-401F-863B-9BA8ED7F03FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD4AE7E-AE42-401F-863B-9BA8ED7F03FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD4AE7E-AE42-401F-863B-9BA8ED7F03FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8129DA2-9ACF-45D3-9606-67A5D968147D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8129DA2-9ACF-45D3-9606-67A5D968147D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8129DA2-9ACF-45D3-9606-67A5D968147D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8129DA2-9ACF-45D3-9606-67A5D968147D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1EB3123-C985-4482-BEA1-67605F3D1338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1EB3123-C985-4482-BEA1-67605F3D1338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1EB3123-C985-4482-BEA1-67605F3D1338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1EB3123-C985-4482-BEA1-67605F3D1338}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
