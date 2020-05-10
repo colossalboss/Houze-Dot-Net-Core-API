@@ -1,17 +1,15 @@
 ﻿<Properties StartupConfiguration="{8017F76F-ECE6-496E-B7CE-3812417B7E95}|Default">
   <MonoDevelop.Ide.ItemProperties.HouzeAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="HouzeAPI/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HouzeAPI/Properties/launchSettings.json">
     <Files>
       <File FileName="HouzeAPI.Data/AppDbContext.cs" Line="26" Column="37" />
       <File FileName="HouzeAPI.Services/Repositories/HouseRepository.cs" />
-      <File FileName="HouzeAPI/Startup.cs" Line="70" Column="61" />
+      <File FileName="HouzeAPI/Startup.cs" Line="48" Column="13" />
       <File FileName="HouzeAPI/appsettings.json" />
-      <File FileName="HouzeAPI/Properties/launchSettings.json" />
+      <File FileName="HouzeAPI/Properties/launchSettings.json" Line="1" Column="1" />
       <File FileName="HouzeAPI/Helpers/Extensions.cs" />
-      <File FileName="HouzeAPI/Program.cs" />
-      <File FileName="HouzeAPI.Entities/Test.cs" />
+      <File FileName="HouzeAPI/Program.cs" Line="1" Column="1" />
       <File FileName="HouzeAPI.Entities/Tenant.cs" />
-      <File FileName="HouzeAPI.Data/Migrations/20200510053915_AddTenant.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,8 +17,9 @@
           <Node name="HouzeAPI" expanded="True">
             <Node name="HouzeAPI" expanded="True">
               <Node name="Helpers" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="Startup.cs" selected="True" />
+              <Node name="Properties" expanded="True">
+                <Node name="launchSettings.json" selected="True" />
+              </Node>
             </Node>
             <Node name="HouzeAPI.Data" expanded="True">
               <Node name="Migrations" expanded="True" />

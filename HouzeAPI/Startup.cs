@@ -60,7 +60,6 @@ namespace HouzeAPI
                 {
                     // Use connection string provided at runtime by Heroku.
                     var connUrl = Environment.GetEnvironmentVariable("DATABASE_URL");
-                    //connStr = "Server=localhost;Port=5432;User Id=username;Password=secret;Database=todos;";
                     //Parse connection URL to connection string for Npgsql
                    connUrl = connUrl.Replace("postgres://", string.Empty);
                    var pgUserPass = connUrl.Split("@")[0];
