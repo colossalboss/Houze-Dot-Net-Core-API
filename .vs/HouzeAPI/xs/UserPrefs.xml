@@ -1,30 +1,37 @@
 ﻿<Properties StartupConfiguration="{8017F76F-ECE6-496E-B7CE-3812417B7E95}|Default">
   <MonoDevelop.Ide.ItemProperties.HouzeAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="HouzeAPI/Properties/launchSettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HouzeAPI.Services/Repositories/ManagerRepository.cs">
     <Files>
       <File FileName="HouzeAPI.Data/AppDbContext.cs" Line="26" Column="37" />
       <File FileName="HouzeAPI.Services/Repositories/HouseRepository.cs" />
-      <File FileName="HouzeAPI/Startup.cs" Line="48" Column="13" />
-      <File FileName="HouzeAPI/appsettings.json" />
-      <File FileName="HouzeAPI/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="HouzeAPI/Startup.cs" Line="126" Column="33" />
+      <File FileName="HouzeAPI/appsettings.json" Line="4" Column="5" />
+      <File FileName="HouzeAPI/Properties/launchSettings.json" Line="32" Column="1" />
       <File FileName="HouzeAPI/Helpers/Extensions.cs" />
-      <File FileName="HouzeAPI/Program.cs" Line="1" Column="1" />
+      <File FileName="HouzeAPI/Program.cs" />
       <File FileName="HouzeAPI.Entities/Tenant.cs" />
+      <File FileName="HouzeAPI/Controllers/AccountController.cs" />
+      <File FileName="HouzeAPI/Controllers/UsersController.cs" Line="55" Column="47" />
+      <File FileName="HouzeAPI.Services/Repositories/ManagerRepository.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="HouzeAPI" expanded="True">
             <Node name="HouzeAPI" expanded="True">
+              <Node name="Controllers" expanded="True" />
               <Node name="Helpers" expanded="True" />
-              <Node name="Properties" expanded="True">
-                <Node name="launchSettings.json" selected="True" />
-              </Node>
+              <Node name="Properties" expanded="True" />
             </Node>
             <Node name="HouzeAPI.Data" expanded="True">
               <Node name="Migrations" expanded="True" />
             </Node>
             <Node name="HouzeAPI.Entities" expanded="True" />
+            <Node name="HouzeAPI.Services" expanded="True">
+              <Node name="Repositories" expanded="True">
+                <Node name="ManagerRepository.cs" selected="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
