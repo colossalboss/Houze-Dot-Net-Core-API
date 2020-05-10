@@ -36,16 +36,18 @@ namespace HouzeAPI.Controllers
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             var user = _managerRepo.GetUser(Guid.Parse(userId));
-            return Ok(user);
+
+            var userModel = _mapper.Map<UserViewModel>(user.Result);
+            return Ok(userModel);
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
         public IActionResult Get(Guid id)
         {
-            var user = _managerRepo.GetUser(id);
-            var usermodel = user.Result;
-            var userViewModel = _mapper.Map<UserViewModel>(usermodel);
+            var user = _managerRepo.GetUser(id).Result;
+            //var usermodel = user.Result;
+            var userViewModel = _mapper.Map<UserViewModel>(user);
 
             //var userViewModel = new UserViewModel
             //{
@@ -55,7 +57,7 @@ namespace HouzeAPI.Controllers
             //    Name = user.Name,
             //    UserId = Guid.Parse(user.Id)
             //};
-            return Ok(user);
+            return Ok(userViewModel);
         }
 
         // POST api/values
