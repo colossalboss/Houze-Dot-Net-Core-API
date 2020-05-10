@@ -5,13 +5,13 @@
       <File FileName="HouzeAPI.Data/AppDbContext.cs" Line="26" Column="37" />
       <File FileName="HouzeAPI.Services/Repositories/HouseRepository.cs" />
       <File FileName="HouzeAPI/Startup.cs" Line="70" Column="61" />
-      <File FileName="HouzeAPI/appsettings.json" Line="3" Column="16" />
-      <File FileName="HouzeAPI/Properties/launchSettings.json" Line="17" Column="46" />
-      <File FileName="HouzeAPI/Helpers/Extensions.cs" Line="25" Column="58" />
-      <File FileName="HouzeAPI/Program.cs" Line="9" Column="24" />
-      <File FileName="HouzeAPI.Entities/Test.cs" Line="1" Column="1" />
-      <File FileName="HouzeAPI.Entities/Tenant.cs" Line="10" Column="36" />
-      <File FileName="HouzeAPI.Data/Migrations/20200510053915_AddTenant.cs" Line="1" Column="1" />
+      <File FileName="HouzeAPI/appsettings.json" />
+      <File FileName="HouzeAPI/Properties/launchSettings.json" />
+      <File FileName="HouzeAPI/Helpers/Extensions.cs" />
+      <File FileName="HouzeAPI/Program.cs" />
+      <File FileName="HouzeAPI.Entities/Test.cs" />
+      <File FileName="HouzeAPI.Entities/Tenant.cs" />
+      <File FileName="HouzeAPI.Data/Migrations/20200510053915_AddTenant.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -28,9 +28,6 @@
             <Node name="HouzeAPI.Entities" expanded="True" />
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
