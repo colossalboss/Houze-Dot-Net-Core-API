@@ -23,6 +23,8 @@ namespace HouzeAPI.Data
 
         public DbSet<Like> Likes { get; set; }
 
+        public DbSet<Tenant> Tenants { get; set; }
+
         //public AppDbContext CreateDbContext(string[] args)
         //{
         //    throw new NotImplementedException();
