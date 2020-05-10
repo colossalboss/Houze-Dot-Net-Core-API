@@ -42,7 +42,7 @@ namespace HouzeAPI
 
             //services.AddDbContext<AppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("HouzeDB"), b => b.MigrationsAssembly("HouzeAPI.Data")));
 
-            services.AddEntityFrameworkNpgsql().AddDbContext<AppDbContext>(options =>
+            services.AddDbContext<AppDbContext>(options =>
                 options.UseNpgsql(Configuration.GetConnectionString("HouzeDB")));
 
             services.AddEntityFrameworkNpgsql().AddDbContext<AppDbContext>(options =>
