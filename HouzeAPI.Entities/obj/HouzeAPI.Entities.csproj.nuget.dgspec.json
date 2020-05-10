@@ -14,7 +14,7 @@
         "outputPath": "/Users/ogbaragodwin/Projects/HouzeAPI/HouzeAPI.Entities/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/ogbaragodwin/.config/NuGet/NuGet.Config"
+          "/Users/ogbaragodwin/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

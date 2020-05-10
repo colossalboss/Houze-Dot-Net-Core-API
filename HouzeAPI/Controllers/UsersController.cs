@@ -44,7 +44,16 @@ namespace HouzeAPI.Controllers
         public IActionResult Get(Guid id)
         {
             var user = _managerRepo.GetUser(id).Result;
-            var userViewModel = _mapper.Map<UserViewModel>(user);
+            //var userViewModel = _mapper.Map<UserViewModel>(user);
+
+            var userViewModel = new UserViewModel
+            {
+                Address = user.Address,
+                Email = user.Email,
+                Image = user.Image,
+                Name = user.Name,
+                UserId = Guid.Parse(user.Id)
+            };
             return Ok(user);
         }
 

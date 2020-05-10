@@ -13,9 +13,9 @@ namespace HouzeAPI.Helpers
                 .ForMember(dest => dest.PostTime,
                     act => act.MapFrom(src => src.TimeStamp));
 
-            CreateMap<AppUser, UserViewModel>()
-                .ForMember(dest => dest.UserId,
-                    act => act.MapFrom(src => src.Id));
+            //CreateMap<AppUser, UserViewModel>()
+            //    .ForMember(dest => dest.UserId,
+            //        act => act.MapFrom(src => src.Id));
 
         }
     }
