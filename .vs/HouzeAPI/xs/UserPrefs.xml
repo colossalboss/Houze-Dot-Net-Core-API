@@ -2,9 +2,10 @@
   <MonoDevelop.Ide.ItemProperties.HouzeAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="HouzeAPI/Controllers/UsersController.cs">
     <Files>
-      <File FileName="HouzeAPI/Controllers/UsersController.cs" Line="48" Column="64" />
+      <File FileName="HouzeAPI/Controllers/UsersController.cs" Line="41" Column="32" />
       <File FileName="HouzeAPI.Services/Repositories/ManagerRepository.cs" />
       <File FileName="HouzeAPI/Helpers/MappingProfile.cs" />
+      <File FileName="HouzeAPI/Controllers/HousesController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,9 +22,7 @@
               <Node name="Migrations" expanded="True" />
             </Node>
             <Node name="HouzeAPI.Entities" expanded="True" />
-            <Node name="HouzeAPI.Services" expanded="True">
-              <Node name="Repositories" expanded="True" />
-            </Node>
+            <Node name="HouzeAPI.Services" expanded="True" />
           </Node>
         </State>
       </Pad>
