@@ -8,6 +8,7 @@ namespace HouzeAPI.Services.Interfaces
     {
         House AddHouse(House house);
         House GetHouseById(int id);
+        House UpdateHouse(House house);
         List<House> GetHouses();
         List<House> GetUserHouses(Guid id);
     }

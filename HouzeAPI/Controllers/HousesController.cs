@@ -58,8 +58,19 @@ namespace HouzeAPI.Controllers
 
         // PUT api/values/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
+        public void Put(int id, [FromBody]House house)
         {
+
+            if (id == house.Id)
+            {
+                var houseToUpdate = _houseRepo.GetHouseById(id);
+                if (houseToUpdate != null)
+                {
+                    _houseRepo.UpdateHouse(house);
+                }
+            }
+                
+
         }
 
         // DELETE api/values/5

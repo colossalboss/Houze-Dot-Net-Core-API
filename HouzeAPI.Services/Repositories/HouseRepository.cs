@@ -37,5 +37,20 @@ namespace HouzeAPI.Services.Repositories
         {
             return _db.Houses.Where(h => h.AppUserId == id).ToList();
         }
+
+        public House UpdateHouse(House house)
+        {
+            var houseToUpdate = _db.Houses.FirstOrDefault(h => h.Id == house.Id);
+            houseToUpdate.Address = house.Address;
+            houseToUpdate.Image = house.Image;
+            houseToUpdate.Phone = house.Phone;
+            houseToUpdate.Description = house.Description;
+            houseToUpdate.School = house.School;
+            houseToUpdate.Type = house.Type;
+
+            _db.Houses.Update(houseToUpdate);
+            _db.SaveChanges();
+            return house;
+        }
     }
 }
