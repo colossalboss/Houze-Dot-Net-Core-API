@@ -11,5 +11,8 @@ namespace HouzeAPI.Services.Interfaces
         House UpdateHouse(House house);
         List<House> GetHouses();
         List<House> GetUserHouses(Guid id);
+
+        List<House> GetHouseStats();
+
     }
 }

@@ -1,19 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using AutoMapper;
 using HouzeAPI.Data;
 using HouzeAPI.Entities;
 using HouzeAPI.Services.Interfaces;
+using Microsoft.EntityFrameworkCore;
 
 namespace HouzeAPI.Services.Repositories
 {
     public class HouseRepository : IHouse
     {
         private readonly AppDbContext _db;
+        private readonly IMapper _mapper;
 
-        public HouseRepository(AppDbContext db)
+        public HouseRepository(AppDbContext db, IMapper mapper)
         {
             _db = db;
+            _mapper = mapper;
         }
 
         public House AddHouse(House house)
@@ -31,6 +35,12 @@ namespace HouzeAPI.Services.Repositories
         public List<House> GetHouses()
         {
             return _db.Houses.ToList();
+        }
+
+        public List<House> GetHouseStats()
+        {
+            var houses = _db.Houses.Include(h => h.Likes).ToList();
+            return houses;
         }
 
         public List<House> GetUserHouses(Guid id)

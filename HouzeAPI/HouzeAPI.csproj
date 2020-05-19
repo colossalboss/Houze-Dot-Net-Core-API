@@ -37,4 +37,7 @@
     <Folder Include="ViewModels\" />
     <Folder Include="Helpers\" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="ViewModels\HouzeStats.cs" />
+  </ItemGroup>
 </Project>

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using HouzeAPI.Entities;
 using HouzeAPI.Services.Interfaces;
 using HouzeAPI.ViewModels;
@@ -16,10 +17,12 @@ namespace HouzeAPI.Controllers
     public class HousesController : Controller
     {
         private readonly IHouse _houseRepo;
+        private readonly IMapper _mapper;
 
-        public HousesController(IHouse house)
+        public HousesController(IHouse house, IMapper mapper)
         {
             _houseRepo = house;
+            _mapper = mapper;
         }
 
         // GET: api/values
@@ -42,6 +45,38 @@ namespace HouzeAPI.Controllers
                 return BadRequest();
 
             return Ok(house);
+        }
+
+        // GET api/values/5
+        [HttpGet("stats")]
+        public IActionResult GetById()
+        {
+            var houses = _houseRepo.GetHouseStats();
+            var housesStats = _mapper.Map<List<HouseStats>>(houses);
+
+
+
+            var targetList = new List<HouseStats>();
+
+
+            foreach (var house in houses)
+            {
+                var existing = targetList.FirstOrDefault(h => h.HouseType == house.Type);
+
+                if (existing == null)
+                {
+                    var count = houses.Select(h => h.Likes.Count).Sum();
+                    var stats = new HouseStats
+                    {
+                        NumberOfLikes = count,
+                        HouseType = house.Type
+                    };
+                    targetList.Add(stats);
+                }
+
+            }
+
+            return Ok(targetList);
         }
 
         // POST api/values
