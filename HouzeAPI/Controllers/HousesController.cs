@@ -65,7 +65,7 @@ namespace HouzeAPI.Controllers
 
                 if (existing == null)
                 {
-                    var count = houses.Select(h => h.Likes.Count).Sum();
+                    var count = houses.Where(h => h.Type == house.Type).Select(h => h.Likes.Count).Sum();
                     var stats = new HouseStats
                     {
                         NumberOfLikes = count,
