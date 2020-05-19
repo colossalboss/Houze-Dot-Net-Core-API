@@ -61,7 +61,7 @@ namespace HouzeAPI.Controllers
 
             foreach (var house in houses)
             {
-                var existing = targetList.FirstOrDefault(h => h.HouseType == house.Type);
+                var existing = targetList.FirstOrDefault(h => h.HouseType.ToLower() == house.Type.ToLower());
 
                 if (existing == null)
                 {
